@@ -1,5 +1,5 @@
 window.onload = function() {
-      var array = ["/slides.dzi", "/3/slides.dzi", "/4/slides.dzi", "/5/slides.dzi", "/6/slides.dzi"];
+      var array = ["/2/slides.dzi", "/3/slides.dzi", "/4/slides.dzi", "/5/slides.dzi"];
       var location = 0;
 
         var viewer = OpenSeadragon({
@@ -35,7 +35,7 @@ window.onload = function() {
       });
 
       var modeBtn = document.getElementById('mode');
-      modeBtn.addEventListener('click', function() {             
+      modeBtn.addEventListener('click', function() {
         if (modeBtn.innerHTML == 'MODE: VIEW') {
           modeBtn.innerHTML = 'MODE: ANNOTATE';
           anno.setDrawingEnabled(true);
@@ -50,13 +50,11 @@ window.onload = function() {
         if (pictureToggle.innerHTML == 'PARS002') {
           pictureToggle.innerHTML == 'PARS002'
           location = 0;
-          // viewer.close();
           anno.clearAnnotations();
           viewer.open(array[location]);
         } else {
           pictureToggle.innerHTML == 'PARS002'
           location = 0;
-          // viewer.close();
           viewer.open(array[location]);
         }
         });
@@ -66,34 +64,30 @@ window.onload = function() {
           if (pictureToggle2.innerHTML == 'PARS003') {
           pictureToggle2.innerHTML == 'PARS003'
           location = 1;
-          // viewer.close();
           anno.clearAnnotations();
           viewer.open(array[location]);
         } else {
           pictureToggle2.innerHTML == 'PARS003'
           location = 1;
-          //viewer.close();
           viewer.open(array[location]);
         }
         });
 
       var pictureToggle3 = document.getElementById('picture3');
       pictureToggle3.addEventListener('click', function() {
-          if (pictureToggle3.innerHTML == 'H&E') {
-          pictureToggle3.innerHTML == 'H&E'
-          location = 4;
-          // viewer.close();
+          if (pictureToggle3.innerHTML == 'PARS005') {
+          pictureToggle3.innerHTML == 'PARS005'
+          location = 3;
           anno.clearAnnotations();
           viewer.open(array[location]);
         } else {
-          pictureToggle3.innerHTML == 'H&E'
-          location = 4;
-          //viewer.close();
+          pictureToggle3.innerHTML == 'PARS005'
+          location = 3;
           viewer.open(array[location]);
         }
         });
 
-      
+
 
       anno.on('createSelection', function(selection) {
         console.log('selection', selection);
