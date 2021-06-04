@@ -13,6 +13,6 @@ Annotations were implemented using the Annotorious plugin for OpenSeaDragon: htt
 https://mirador1.z9.web.core.windows.net/
 
 ## Next Steps
-- Import dzi links using .json file
+- Import dzi links from pictures.json file
 - Load/save annotations
 - Styling
