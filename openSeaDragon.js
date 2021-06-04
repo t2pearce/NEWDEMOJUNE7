@@ -50,11 +50,13 @@ window.onload = function() {
         if (pictureToggle.innerHTML == 'PARS002') {
           pictureToggle.innerHTML == 'PARS002'
           location = 0;
+          // viewer.close();
           anno.clearAnnotations();
           viewer.open(array[location]);
         } else {
           pictureToggle.innerHTML == 'PARS002'
           location = 0;
+          // viewer.close();
           viewer.open(array[location]);
         }
         });
@@ -64,28 +66,32 @@ window.onload = function() {
           if (pictureToggle2.innerHTML == 'PARS003') {
           pictureToggle2.innerHTML == 'PARS003'
           location = 1;
+          // viewer.close();
           anno.clearAnnotations();
           viewer.open(array[location]);
         } else {
           pictureToggle2.innerHTML == 'PARS003'
           location = 1;
+          //viewer.close();
           viewer.open(array[location]);
         }
         });
 
-      var pictureToggle3 = document.getElementById('picture3');
-      pictureToggle3.addEventListener('click', function() {
-          if (pictureToggle3.innerHTML == 'PARS005') {
-          pictureToggle3.innerHTML == 'PARS005'
-          location = 3;
-          anno.clearAnnotations();
-          viewer.open(array[location]);
-        } else {
-          pictureToggle3.innerHTML == 'PARS005'
-          location = 3;
-          viewer.open(array[location]);
-        }
-        });
+      // var pictureToggle3 = document.getElementById('picture3');
+      // pictureToggle3.addEventListener('click', function() {
+      //     if (pictureToggle3.innerHTML == 'PARS004') {
+      //     pictureToggle3.innerHTML == 'PARS004'
+      //     location = 2;
+      //     // viewer.close();
+      //     anno.clearAnnotations();
+      //     viewer.open(array[location]);
+      //   } else {
+      //     pictureToggle3.innerHTML == 'PARS004'
+      //     location = 2;
+      //     //viewer.close();
+      //     viewer.open(array[location]);
+      //   }
+      //   });
 
 
 
