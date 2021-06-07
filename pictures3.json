@@ -1,0 +1,142 @@
+{
+ "groups": [
+  {
+   "name": "PARS Images", 
+   "slides": [
+    {
+     "associated": [], 
+     "credit": null, 
+     "description": "PARS002", 
+     "download_url": "https://miradortest.z13.web.core.windows.net/2/PARSScanData002Log.tiff", 
+     "name": "PARS002", 
+     "properties_url": "https://miradortest.z13.web.core.windows.net/2/slides_files/vips-properties.xml", 
+     "slide": {
+      "mpp": null, 
+      "name": null, 
+      "source": {
+       "Image": {
+        "Format": "jpeg", 
+        "Overlap": 1, 
+        "Size": {
+         "Height": 5998, 
+         "Width": 26500
+                }, 
+        "TileSize": 254, 
+        "Url": "https://miradortest.z13.web.core.windows.net/2/slides_files/", 
+        "xmlns": "http://schemas.microsoft.com/deepzoom/2008"
+       }
+      }
+     }
+    },
+    {
+     "associated": [], 
+     "credit": null, 
+     "description": "PARS003", 
+     "download_url": "https://miradortest.z13.web.core.windows.net/3/PARSScanData003Log.tiff", 
+     "name": "PARS003", 
+     "properties_url": "https://miradortest.z13.web.core.windows.net/3/slides_files/vips-properties.xml", 
+     "slide": {
+      "mpp": null, 
+      "name": null, 
+      "source": {
+       "Image": {
+        "Format": "jpeg", 
+        "Overlap": 1, 
+        "Size": {
+         "Height": 5998, 
+         "Width": 26500
+                }, 
+        "TileSize": 254, 
+        "Url": "https://miradortest.z13.web.core.windows.net/3/slides_files/", 
+        "xmlns": "http://schemas.microsoft.com/deepzoom/2008"
+       }
+      }
+     }
+    },
+    {
+     "associated": [], 
+     "credit": null, 
+     "description": "PARS004", 
+     "download_url": "https://miradortest.z13.web.core.windows.net/4/PARSScanData004Log.tiff", 
+     "name": "PARS004", 
+     "properties_url": "https://miradortest.z13.web.core.windows.net/4/slides_files/vips-properties.xml", 
+     "slide": {
+      "mpp": null, 
+      "name": null, 
+      "source": {
+       "Image": {
+        "Format": "jpeg", 
+        "Overlap": 1, 
+        "Size": {
+         "Height": 5998, 
+         "Width": 26500
+                }, 
+        "TileSize": 254, 
+        "Url": "https://miradortest.z13.web.core.windows.net/4/slides_files/", 
+        "xmlns": "http://schemas.microsoft.com/deepzoom/2008"
+       }
+      }
+     }
+    },
+    {
+     "associated": [], 
+     "credit": null, 
+     "description": "PARS005", 
+     "download_url": "https://miradortest.z13.web.core.windows.net/5/PARSScanData005Log.tiff", 
+     "name": "PARS005", 
+     "properties_url": "https://miradortest.z13.web.core.windows.net/5/slides_files/vips-properties.xml", 
+     "slide": {
+      "mpp": null, 
+      "name": null, 
+      "source": {
+       "Image": {
+        "Format": "jpeg", 
+        "Overlap": 1, 
+        "Size": {
+         "Height": 5998, 
+         "Width": 26500
+                }, 
+        "TileSize": 254, 
+        "Url": "https://miradortest.z13.web.core.windows.net/5/slides_files/", 
+        "xmlns": "http://schemas.microsoft.com/deepzoom/2008"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "H&E Images", 
+   "slides": [
+    {
+     "associated": [], 
+     "credit": null, 
+     "description": "H&E001", 
+     "download_url": "https://miradortest.z13.web.core.windows.net/6/HR11-1075-S11-31517-1D.tiff", 
+     "name": "H&E Test Image", 
+     "properties_url": "https://miradortest.z13.web.core.windows.net/6/slides_files/vips-properties.xml", 
+     "slide": {
+      "mpp": null, 
+      "name": null, 
+      "source": {
+       "Image": {
+        "Format": "jpeg", 
+        "Overlap": 1, 
+        "Size": {
+         "Height": 124596, 
+         "Width": 109697
+                }, 
+        "TileSize": 254, 
+        "Url": "https://miradortest.z13.web.core.windows.net/6/slides_files/", 
+        "xmlns": "http://schemas.microsoft.com/deepzoom/2008"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ], 
+ "openslide": "3.4.1", 
+ "openslide_python": "1.1.1", 
+ "stamp": "9ae8ddb6"
+}
