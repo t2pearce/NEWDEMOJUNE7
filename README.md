@@ -13,6 +13,7 @@ Annotations were implemented using the Annotorious plugin for OpenSeaDragon: htt
 https://miradortest.z13.web.core.windows.net/
 
 ## Next Steps
+- Build REACT app
 - Import dzi links from pictures.json file
 - Load/save annotations
 - Styling
