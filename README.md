@@ -10,7 +10,7 @@ Refer to the following link for a walkthrough on deep zoom setup using Azure sta
 Annotations were implemented using the Annotorious plugin for OpenSeaDragon: https://recogito.github.io/annotorious/
 
 ## Demo
-https://miradortest.z13.web.core.windows.net/
+https://mirador1.z9.web.core.windows.net/
 
 ## Next Steps
 - Import dzi links from pictures.json file
